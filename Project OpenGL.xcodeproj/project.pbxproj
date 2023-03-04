@@ -11,7 +11,6 @@
 		912E2C9829B1502E00EC62DE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912E2C9729B1502E00EC62DE /* OpenGL.framework */; };
 		912E2C9B29B1506B00EC62DE /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 912E2C9929B1506B00EC62DE /* libglfw.3.3.dylib */; };
 		912E2C9C29B1506B00EC62DE /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 912E2C9A29B1506B00EC62DE /* libGLEW.2.2.0.dylib */; };
-		912E2C9F29B155DA00EC62DE /* basic_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 912E2C9D29B155DA00EC62DE /* basic_functions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +31,6 @@
 		912E2C9729B1502E00EC62DE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		912E2C9929B1506B00EC62DE /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../opt/homebrew/Cellar/glfw/3.3.8/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 		912E2C9A29B1506B00EC62DE /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../../opt/homebrew/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
-		912E2C9D29B155DA00EC62DE /* basic_functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = basic_functions.cpp; sourceTree = "<group>"; };
-		912E2C9E29B155DA00EC62DE /* basic_functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = basic_functions.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				912E2C8F29B14EE500EC62DE /* main.cpp */,
-				912E2C9D29B155DA00EC62DE /* basic_functions.cpp */,
-				912E2C9E29B155DA00EC62DE /* basic_functions.hpp */,
 			);
 			path = "Project OpenGL";
 			sourceTree = "<group>";
@@ -144,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				912E2C9F29B155DA00EC62DE /* basic_functions.cpp in Sources */,
 				912E2C9029B14EE500EC62DE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
